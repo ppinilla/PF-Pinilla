@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+// font-family: 'Alkalami', serif;
+// font-family: 'Chicle', cursive;
+// font-family: 'DynaPuff', cursive;
+// font-family: 'Edu QLD Beginner', cursive;
+// font-family: 'Fascinate', cursive;
+// font-family: 'Fuzzy Bubbles', cursive;
+// font-family: 'Gantari', sans-serif;
+// font-family: 'IBM Plex Sans', sans-serif;
+// font-family: 'Inter', sans-serif;
+// font-family: 'Kdam Thmor Pro', sans-serif;
+// font-family: 'Kenia', cursive;
+// font-family: 'Macondo', cursive;
+// font-family: 'Mukta', sans-serif;
+// font-family: 'Nerko One', cursive;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Raleway', sans-serif;
+// font-family: 'Rubik Moonrocks', cursive;
+// font-family: 'Zen Dots', cursive;
+
+// Variables
+$color1: #A92C7E;
+$color2: #000000;
+$color3: #ffffff;
+$color4: #dddddd;
+$color5: #6d094a;
+$color6: #a92c7d60;
+
+// $font1: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+* {
+    box-sizing: border-box;
+}
+
+// Header
+header {
+    height: 40px;
+    background-color: $color1;
+
+    p {
+        font-size: 15px;
+        color: $color2;
+        padding: 10px;
+        text-decoration: none;
+    }
+}
+
+.redes i {
+    color: $color2;
+    padding: 10px;
+    font-size: 20px;
+}
+
+// Barra de navegacion
+.navbar {
+    font-size: 20px;
+    background-color: $color3;
+
+    a {
+        color: $color2;
+
+        img {
+            width: 87px;
+        }
+    }
+}
+
+.navbar-toggler {
+    background-color: $color1;
+
+    i {
+        color: $color3;
+        font-size: 25px;
+    }
+}
+
+.nav-item {
+    text-align: center;
+
+    a:hover {
+        color: $color1;
+    }
+}
+
+// Footer
+footer {
+    background-color: $color1;
+    color: $color2;
+}
+
+.f-contacto {
+    padding: 10px;
+    text-align: center;
+    color: $color2;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    a {
+        color: $color2;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 25%;
+    position: relative;
+    height: 0;
+
+    iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+}
+
+.subir {
+    background-color: $color3;
+    box-shadow: 0 0 5px $color2;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    border-radius: 5px;
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $color2;
+        font-size: 20px;
+    }
+}
+
+// Pagina de Inicio
+.jumbotron {
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.trats {
+    background-color: $color1;
+    background-image: url(../img/bendita\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    color: $color1;
+    text-transform: uppercase;
+
+    h2 {
+        color: $color1;
+        font-size: 80px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h3 {
+        color: $color2;
+        font-size: 40px;
+        margin: 20px;
+        padding: 20px;
+        border: 8px solid $color1;
+        font-weight: bold;
+    }
+}
+
+.trat1 {
+    align-items: flex-start;
+}
+
+.trat2 {
+    align-items: center;
+}
+
+.trat3 {
+    align-items: flex-end;
+}
+
+.tratamientos {
+    background-color: $color2;
+    background-size: cover;
+    text-align: center;
+
+    h2 {
+        color: $color1;
+        font-size: 80px;
+        padding: 20px;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    p {
+        color: $color3;
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: $color6;
+    }
+
+    a {
+        background-color: $color1;
+        color: $color3;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-size: 30px;
+    }
+
+    a:hover {
+        background-color: $color5;
+    }
+}
+
+.f {
+    background-image: url(../img/Facial.jpg);
+    background-position: right;
+}
+
+.c {
+    background-image: url(../img/Corporal.jpg);
+}
+
+.cc {
+    background-image: url(../img/Capilar.jpg);
+}
+
+.i-section {
+    background-color: $color4;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    h2 {
+        color: $color2;
+        width: 100%;
+        text-align: center;
+        font-size: 60px;
+    }
+
+    form {
+        font-size: 25px;
+        width: 100%;
+        color: $color2;
+
+        input {
+            width: 400px;
+            height: 40px;
+            padding: 10px;
+            text-align: start;
+            font-size: 20px;
+        }
+
+        textarea {
+            width: 600px;
+            height: 100px;
+            padding: 19ox;
+            text-align: start;
+            font-size: 20px;
+        }
+
+        button {
+            background-color: $color1;
+            border: 2px solid $color3;
+            padding: 10px 20px;
+            font-size: 20px;
+        }
+
+        button:hover {
+            background-color: $color5;
+            border: 2px solid $color3;
+        }
+    }
+}
+
+// Pagina de Tratamientos
+.t h2 {
+    color: $color1;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", Arial, sans-serif, ;
+    font-weight: bold;
+}
+
+.trat {
+    background-color: $color3;
+    text-align: center;
+    color: $color2;
+    padding: 20px;
+    margin: 0;
+
+    h3 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.facial {
+    background-color: $color5;
+    background-image: url(../img/Facial.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-smoot {
+    background-color: $color1;
+    background-image: url(../img/tratamiento1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.titulo-smoot {
+    text-align: center;
+    background-color: $color1;
+    color: $color2;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    a {
+        background-color: $color3;
+        font-size: 15px;
+        color: $color1;
+        padding: 5px;
+        width: 30%;
+        text-decoration: none;
+    }
+}
+
+.corporal {
+    background-color: $color5;
+    background-image: url(../img/Corporal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capilar {
+    background-color: $color5;
+    background-image: url(../img/Capilar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+// Pagina de Resultados
+.r-section {
+    background-color: $color1;
+    color: $color2;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    p {
+        color: $color2 !important;
+    }
+}
+
+.album {
+    img {
+        background-color: $color4;
+    }
+
+    img:hover {
+        transform: scale(1.05);
+    }
+}
+
+.view {
+    background-color: $color1;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+
+    a {
+        text-decoration: none;
+        color: $color3;
+    }
+}
+
+.view:hover {
+    background-color: $color5;
+    border: 2px solid $color3;
+}
+
+// Pagina de Nosotros
+.section {
+    background-color: $color1;
+    background-image: url(../img/bendita\ 1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h2 {
+        text-align: center;
+        color: $color1;
+        font-size: 80px;
+        text-transform: uppercase;
+        font-family: "Helvetica Neue", Arial, sans-serif, ;
+        font-weight: bold;
+    }
+}
+.img-nosotros {
+    background-color: $color2;
+    background-image: url(../img/doctor-g243f38460_1280.png);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.titulo-nosotros {
+    background-color: $color3;
+    color: $color2;
+    padding: 30px;
+    font-size: 20px;
+
+    p {
+        width: 100%;
+    }
+}
+
+
+// Pagina de Contacto
+.c-section1 {
+    background-color: $color1;
+    color: $color2;
+    text-align: center;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    p {
+        color: $color2 !important;
+        font-size: 20px;
+    }
+}
+
+.c-section2 {
+    padding: 20px;
+
+    label {
+        color: $color2;
+        font-size: 20px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    textarea {
+        font-size: 20px;
+    }
+
+    button {
+        background-color: $color1;
+        border: 2px solid $color3;
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    button:hover {
+        background-color: $color5;
+        border: 2px solid $color3;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color5;
+        font-size: 20px;
+
+        i {
+            padding: 10px 10px;
+        }
+    }
+}

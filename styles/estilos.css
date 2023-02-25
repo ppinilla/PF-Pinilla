@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+header {
+  height: 40px;
+  background-color: #A92C7E;
+}
+header p {
+  font-size: 15px;
+  color: #000000;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.redes i {
+  color: #000000;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar {
+  font-size: 20px;
+  background-color: #ffffff;
+}
+.navbar a {
+  color: #000000;
+}
+.navbar a img {
+  width: 87px;
+}
+
+.navbar-toggler {
+  background-color: #A92C7E;
+}
+.navbar-toggler i {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.nav-item {
+  text-align: center;
+}
+.nav-item a:hover {
+  color: #A92C7E;
+}
+
+footer {
+  background-color: #A92C7E;
+  color: #000000;
+}
+
+.f-contacto {
+  padding: 10px;
+  text-align: center;
+  color: #000000;
+}
+.f-contacto h3 {
+  font-size: 30px;
+}
+.f-contacto a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+}
+.f-contacto p {
+  font-size: 20px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.subir {
+  background-color: #ffffff;
+  box-shadow: 0 0 5px #000000;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+.subir a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 20px;
+}
+
+.jumbotron {
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.trats {
+  background-color: #A92C7E;
+  background-image: url(../img/bendita\ 1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  color: #A92C7E;
+  text-transform: uppercase;
+}
+.trats h2 {
+  color: #A92C7E;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+}
+.trats h3 {
+  color: #000000;
+  font-size: 40px;
+  margin: 20px;
+  padding: 20px;
+  border: 8px solid #A92C7E;
+  font-weight: bold;
+}
+
+.trat1 {
+  align-items: flex-start;
+}
+
+.trat2 {
+  align-items: center;
+}
+
+.trat3 {
+  align-items: flex-end;
+}
+
+.tratamientos {
+  background-color: #000000;
+  background-size: cover;
+  text-align: center;
+}
+.tratamientos h2 {
+  color: #A92C7E;
+  font-size: 80px;
+  padding: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.tratamientos p {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: rgba(169, 44, 125, 0.3764705882);
+}
+.tratamientos a {
+  background-color: #A92C7E;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+.tratamientos a:hover {
+  background-color: #6d094a;
+}
+
+.f {
+  background-image: url(../img/Facial.jpg);
+  background-position: right;
+}
+
+.c {
+  background-image: url(../img/Corporal.jpg);
+}
+
+.cc {
+  background-image: url(../img/Capilar.jpg);
+}
+
+.i-section {
+  background-color: #dddddd;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.i-section h2 {
+  color: #000000;
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+}
+.i-section form {
+  font-size: 25px;
+  width: 100%;
+  color: #000000;
+}
+.i-section form input {
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+  text-align: start;
+  font-size: 20px;
+}
+.i-section form textarea {
+  width: 600px;
+  height: 100px;
+  padding: 19ox;
+  text-align: start;
+  font-size: 20px;
+}
+.i-section form button {
+  background-color: #A92C7E;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.i-section form button:hover {
+  background-color: #6d094a;
+  border: 2px solid #ffffff;
+}
+
+.t h2 {
+  color: #A92C7E;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.trat {
+  background-color: #ffffff;
+  text-align: center;
+  color: #000000;
+  padding: 20px;
+  margin: 0;
+}
+.trat h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.trat p {
+  font-size: 20px;
+}
+
+.facial {
+  background-color: #6d094a;
+  background-image: url(../img/Facial.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-smoot {
+  background-color: #A92C7E;
+  background-image: url(../img/tratamiento1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.titulo-smoot {
+  text-align: center;
+  background-color: #A92C7E;
+  color: #000000;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.titulo-smoot h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.titulo-smoot p {
+  width: 100%;
+}
+.titulo-smoot a {
+  background-color: #ffffff;
+  font-size: 15px;
+  color: #A92C7E;
+  padding: 5px;
+  width: 30%;
+  text-decoration: none;
+}
+
+.corporal {
+  background-color: #6d094a;
+  background-image: url(../img/Corporal.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.capilar {
+  background-color: #6d094a;
+  background-image: url(../img/Capilar.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.r-section {
+  background-color: #A92C7E;
+  color: #000000;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.r-section p {
+  color: #000000 !important;
+}
+
+.album img {
+  background-color: #dddddd;
+}
+.album img:hover {
+  transform: scale(1.05);
+}
+
+.view {
+  background-color: #A92C7E;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+}
+.view a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.view:hover {
+  background-color: #6d094a;
+  border: 2px solid #ffffff;
+}
+
+.section {
+  background-color: #A92C7E;
+  background-image: url(../img/bendita\ 1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.section h2 {
+  text-align: center;
+  color: #A92C7E;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.img-nosotros {
+  background-color: #000000;
+  background-image: url(../img/doctor-g243f38460_1280.png);
+  background-size: cover;
+  background-position: center;
+  height: auto;
+}
+
+.titulo-nosotros {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px;
+  font-size: 20px;
+}
+.titulo-nosotros p {
+  width: 100%;
+}
+
+.c-section1 {
+  background-color: #A92C7E;
+  color: #000000;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+.c-section1 p {
+  color: #000000 !important;
+  font-size: 20px;
+}
+
+.c-section2 {
+  padding: 20px;
+}
+.c-section2 label {
+  color: #000000;
+  font-size: 20px;
+}
+.c-section2 input {
+  font-size: 20px;
+}
+.c-section2 textarea {
+  font-size: 20px;
+}
+.c-section2 button {
+  background-color: #A92C7E;
+  border: 2px solid #ffffff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+.c-section2 button:hover {
+  background-color: #6d094a;
+  border: 2px solid #ffffff;
+}
+.c-section2 a {
+  text-decoration: none;
+  color: #6d094a;
+  font-size: 20px;
+}
+.c-section2 a i {
+  padding: 10px 10px;
+}/*# sourceMappingURL=estilos.css.map */
